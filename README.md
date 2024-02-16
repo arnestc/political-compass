@@ -1,3 +1,5 @@
+[![DOI](https://sandbox.zenodo.org/badge/758604966.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.29436)
+
 # Navigating Multidimensional Ideologies with Reddit’s Political Compass: Economic Conflict and Social Affinity
 
 This repository contains code and data to reproduce our results from ***"Navigating Multidimensional Ideologies with Reddit’s Political Compass: Economic Conflict and Social Affinity"*** by Ernesto Colacrai, Federico Cinus, Gianmarco De Francisci Morales and Michele Starnini, published at [ACM Web Conference 2024 (WWW'24)]([https://www2023.thewebconf.org](https://www2024.thewebconf.org/)). If you use the provided data or code, we would appreciate a citation to the paper:
@@ -25,7 +27,7 @@ For each of the analyzed subreddits (`/r/PoliticalCompass` as `PC` and `/r/Polit
 - `socio_demographics_anonymized_SUBREDDIT.csv`: for each Reddit users of the SUBREDDIT included in the analysis, this file reports their anonymized username and their score on the age, gender, partisan, and affluence axes (included also ideologies flairs for analysis). Scores are quantile-normalized, so that i.e. a score of 0.25 indicates the 25th percentile. The axes respectively correspond to probability of being young (low) or old (high), male or female, poor or rich, and left-leaning or right-leaning.
 - `edges_anonymized_with_toxicity_SUBREDDIT.csv`: each line corresponds to an edge of the interaction network of the SUBREDDIT with the author of the comment, the author of the parent comment to which this comment is replying to, the body (as blank string to be anonymized after the toxicity analysis ???) the social and economic ideologies of both the author and the parent author, and the toxicity value get from the body of the comment.
 
-For every year 2016 to 2020 (included), the data set contains these three CSV files.
+
 Each username is consistently replaced with an anonymized string.
 
 
