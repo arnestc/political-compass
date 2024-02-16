@@ -12,7 +12,7 @@ Here you will find (i) the (anonymized) Reddit dataset we presented in the paper
 
 ## Reddit Data Set
 
-[You can download our anonymized Reddit `r/PoliticalCompass` (and `/r/PoliticalCompassMemes`) data sets from here](link_release_repository).
+[You can download our anonymized Reddit `r/PoliticalCompass` (and `/r/PoliticalCompassMemes`) data sets from here](https://github.com/arnestc/political-compass/releases/download/Latest/data.zip).
 
 Each username is consistently replaced with an anonymized number.
 
@@ -43,8 +43,8 @@ The total number of considered users and comments is
 
 In order to reproduce our experiments, we provide all our the notebooks to generate the analysis and the plot from the data set. In particular, you have to:
 
-- [download the data set](link_release_repository) and unzip its content in `data/raw/`;
-- create the [Conda environment](link_environment_yml_repository): `conda env create -f environment.yml`;
+- [download the data set](https://github.com/arnestc/political-compass/releases/download/Latest/data.zip) and unzip its content in `data/raw/`;
+- create the [Conda environment](https://github.com/arnestc/political-compass/blob/main/environment.yml): `conda env create -f environment.yml`;
 - you can reproduce the analysis and generate the plots from the paper using the [provided notebooks] (link_to_notebooks_folder).
 
 For further information or needed data, please contact me: `ernesto.colacrai@gmail.com`.
