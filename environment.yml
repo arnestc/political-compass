@@ -1,0 +1,19 @@
+name: political-compass
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10  # Adjust this to match the Python version you're using
+  - fastparquet # Efficient reading and writing of Parquet files
+  - matplotlib  # For plotting, includes support for rc and Line2D
+  - networkx  # For creating and manipulating complex networks
+  - numpy  # For numerical computing
+  - pandas  # For data manipulation and analysis
+  - pyarrow # Columnar data format and high-performance tools for processing
+  - scipy  # For statistical functions
+  - seaborn  # For statistical data visualization
+  - scikit-learn  # For preprocessing and utility functions
+  - statsmodels  # For statistical modeling
+  - tqdm  # For progress bars in loops
