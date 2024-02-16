@@ -1,1 +1,0 @@
-Please download this data set from https://github.com/arnestc/political-compass/releases
