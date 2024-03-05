@@ -28,7 +28,7 @@ For each of the analyzed subreddits (`/r/PoliticalCompass` as `PC` and `/r/Polit
 - `edges_anonymized_with_toxicity_SUBREDDIT.csv`: each line corresponds to an edge of the interaction network of the SUBREDDIT with the author of the comment, the author of the parent comment to which this comment is replying, the body (as empty string for anonymization reasons), the social and economic ideologies of both the author and the parent author, and the toxicity value get from the original body of the comment.
 
 See the paper for more details about how we extracted this information.
-The total number of considered users and comments is
+The total number of nodes (users) and edges (interactions) for the interaction networks are:
 
 | SUBREDDIT     | /r/PC   | /r/PCM  |
 |---------------|---------|---------|
