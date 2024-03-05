@@ -21,7 +21,7 @@ Each username is consistently replaced with an anonymized number.
 For each of the analyzed subreddits (`/r/PoliticalCompass` as `PC` and `/r/PoliticalCompassMemes` as `PCM`), the data set contains these CSV files.
 
 - `submissions_anonymized_SUBREDDIT.csv`: each line corresponds to a submission on the SUBREDDIT, including the anonymized username of its author, flair associated with the author (ideology on the Political Compass), and the time of creation (UTC format) of the submission. Data go from 2012 to 2022, and in [0.1-Data-Pre-Processing-PC-PCM.ipynb](notebooks/0.1-Data-Pre-Processing-PC-PCM.ipynb) only data in the period 2020-2022 (included) are selected.
-- `comments_anonymized_SUBREDDIT.csv`: each line corresponds to a comment on the SUBREDDIT, including the anonymized username of its author, flair associated with the author (ideology on the Political Compass), and the time of creation (UTC format) of the submission. Data go from 2012 to 2022, and in [code/notebooks/0.1-Data-Pre-Processing-PC-PCM.ipynb] are selected only data in the period 2020-2022 (included).
+- `comments_anonymized_SUBREDDIT.csv`: each line corresponds to a comment on the SUBREDDIT, including the anonymized username of its author, flair associated with the author (ideology on the Political Compass), and the time of creation (UTC format) of the submission.  Data go from 2012 to 2022, and in [0.1-Data-Pre-Processing-PC-PCM.ipynb](notebooks/0.1-Data-Pre-Processing-PC-PCM.ipynb) only data in the period 2020-2022 (included) are selected.
 - `edges_anonymized_SUBREDDIT.csv`: each line corresponds to a comment on the SUBREDDIT done during 2020-2022. The file lists the author of the comment, the author of the parent comment to which this comment is replying, and the sentiment of the text of the interaction. This can be seen as a weighted graph among users.
 - `popularity_anonymized_SUBREDDIT.csv`: each line corresponds to the author and the list of the scores associated with each of his comments in the SUBREDDIT. Those data are used to analyze possible confounding effects of Reddit.
 - `socio_demographics_anonymized_SUBREDDIT.csv`: for each Reddit user of the SUBREDDIT included in the analysis, this file reports their anonymized username and their score on the age, gender, partisan, and affluence axes (included also ideologies flairs for analysis). Scores are quantile-normalized, so that i.e. a score of 0.25 indicates the 25th percentile. The axes respectively correspond to the probability of being young (low) or old (high), male or female, poor or rich, and left-leaning or right-leaning.
@@ -41,6 +41,6 @@ To reproduce our experiments, we provide all our notebooks to generate the analy
 
 - [download the data set](https://github.com/arnestc/political-compass/releases/download/Latest/data.zip) and unzip its content in `data/raw/`;
 - create the [Conda environment](https://github.com/arnestc/political-compass/blob/main/environment.yml): `conda env create -f environment.yml`;
-- you can reproduce the analysis and generate the plots from the paper using the [provided notebooks] (link_to_notebooks_folder).
+- you can reproduce the analysis and generate the plots from the paper using the [provided notebooks](notebooks).
 
 For further information or needed data, please contact me: `ernesto.colacrai@gmail.com`.
