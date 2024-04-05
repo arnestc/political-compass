@@ -43,4 +43,4 @@ To reproduce our experiments, we provide all our notebooks to generate the analy
 - create the [Conda environment](https://github.com/arnestc/political-compass/blob/main/environment.yml): `conda env create -f environment.yml`;
 - you can reproduce the analysis and generate the plots from the paper using the [provided notebooks](notebooks).
 
-For further information or needed data, please contact me: `ernesto.colacrai@gmail.com`.
+For further information or needed data, please contact `ernesto.colacrai@gmail.com`, `federico.cinus@centai.eu`.
