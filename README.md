@@ -5,7 +5,22 @@
 This repository contains code and data to reproduce our results from ***"Navigating Multidimensional Ideologies with Reddit’s Political Compass: Economic Conflict and Social Affinity"*** by Ernesto Colacrai, Federico Cinus, Gianmarco De Francisci Morales and Michele Starnini, published at [ACM Web Conference 2024 (WWW'24)]([https://www2023.thewebconf.org](https://www2024.thewebconf.org/)). If you use the provided data or code, we would appreciate a citation to the paper:
 
 ```
-_citation_
+@inproceedings{10.1145/3589334.3645606,
+author = {Colacrai, Ernesto and Cinus, Federico and De Francisci Morales, Gianmarco and Starnini, Michele},
+title = {Navigating Multidimensional Ideologies with Reddit's Political Compass: Economic Conflict and Social Affinity},
+year = {2024},
+isbn = {9798400701719},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3589334.3645606},
+doi = {10.1145/3589334.3645606},
+booktitle = {Proceedings of the ACM on Web Conference 2024},
+pages = {2582–2593},
+numpages = {12},
+keywords = {homophily, polarization, reddit, socio-demographic},
+location = {, Singapore, Singapore, },
+series = {WWW '24}
+}
 ```
 
 Here you will find (i) the (anonymized) Reddit dataset we presented in the paper and (ii) the code to reproduce our experiments.
